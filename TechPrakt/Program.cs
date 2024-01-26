@@ -13,8 +13,7 @@ class Program
         Console.WriteLine("Введіть друге число:");
         string input2 = Console.ReadLine();
 
-        input1 = input1.Replace('.', ',');
-        input2 = input2.Replace('.', ',');
+       
 
         if (double.TryParse(input1, out double number1) && double.TryParse(input2, out double number2))
         {
